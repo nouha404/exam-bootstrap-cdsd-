@@ -1,0 +1,82 @@
+#animation:hover {
+  animation: animate 3s alternate-reverse infinite;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
+  }
+  100% {
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
+  }
+  100% {
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
+  }
+}
+
+#actu {
+  -webkit-animation: actu 5s ease-in;
+          animation: actu 5s ease-in;
+}
+
+@-webkit-keyframes actu {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    text-align: center;
+  }
+}
+
+@keyframes actu {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    text-align: center;
+  }
+}
+
+.card-img-top:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  -webkit-transition-duration: 1ms;
+          transition-duration: 1ms;
+}
+
+#carouselExampleCaptionsTwo {
+  height: 700px;
+  width: 700px;
+}
+
+#ministre img {
+  width: 300px;
+  height: 300px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  background-color: red;
+}
+
+#contacted {
+  height: auto;
+  padding: 30px;
+}
+
+nav a {
+  color: yellow;
+}
+/*# sourceMappingURL=app.css.map */

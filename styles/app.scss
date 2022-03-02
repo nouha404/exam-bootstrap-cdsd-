@@ -1,0 +1,58 @@
+//animations csss
+
+#animation:hover {
+    animation: animate 3s alternate-reverse infinite;
+}
+@keyframes animate {
+    0% {
+        transform: translateX(-30px);
+    }
+    100% {
+        transform: translateX(30px);
+    }
+}
+#actu {
+    animation: actu 5s ease-in ;
+}
+
+@keyframes actu {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        text-align: center;
+    }
+}
+
+
+
+.card-img-top:hover {
+    transform: scale(0.9);
+    transition-delay: 0.2s;
+    transition-duration: 1ms;
+    
+}
+#carouselExampleCaptionsTwo {
+    height: 700px;
+    width: 700px;
+}
+#ministre {
+    img {
+        width: 300px;
+        height: 300px;
+        clip-path: circle();
+        background-color: red;
+    }
+}
+#contacted {
+    height: auto;
+    padding: 30px;
+      
+       
+}
+nav {
+    a {
+    
+        color:yellow;
+    }
+}
